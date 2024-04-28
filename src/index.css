@@ -1,13 +1,20 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+:root {
+  --background: hsl(270, 50%, 6%); /* Dark purple for background */
+  --text: hsl(220, 10%, 95%); /* Light grayish-blue for text */
+  --primary: hsl(270, 85%, 46%); /* Vibrant purple for primary elements */
+  --secondary: hsl(270, 89%, 55%); /* Vibrant purple for secondary elements */
+  --accent: hsl(270, 79%, 17%); /* Vibrant purple for accent elements */
+}
+
+body {
+  margin: 0;
+  /* Set the font family to a system font stack */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  background-color: var(--background);
+  color: var(--text);
 }

@@ -1,0 +1,17 @@
+.hero-section {
+    text-align: left;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, Adjust);
+    color: var(--text-color);
+    font-size: calc(16px + 2vw); /* Adjust the base font size as needed */
+    margin: 0px;
+}
+
+.tagline {
+    grid-row: 2;
+    grid-column: 1;
+    margin: 0px;
+}
